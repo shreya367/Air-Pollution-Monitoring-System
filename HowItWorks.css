@@ -1,0 +1,68 @@
+#hiw {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.line-break {
+  height: 25px;
+}
+
+.line-break-border {
+  border-top: 2px solid #c8c8c8;
+}
+
+.image_navbar {
+	padding: 10px 5px;
+}
+
+.threedvisual {
+	display: block;
+	vertical-align: baseline;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#image_wrap .captionjs.stacked {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.captionjs.stacked figcaption {
+background-color: rgba(0, 0, 0, 0.75);
+color: #fff;
+border: none;
+}
+
+.captionjs figcaption {
+font-size: 13px;
+line-height: 1.5;
+padding: 10px 15px;
+border: 1px solid #ddd;
+border-top: none;
+background-color: #eee;
+}
+
+#aqiTable {
+	width: 60%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.lead {
+	margin-bottom: 5px;
+}
+
+#dylosbox:hover {
+	display: block;
+	height: 100px;
+	width: 100px;
+	
+}

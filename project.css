@@ -1,0 +1,375 @@
+.caption-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.25);
+	z-index: 9;
+	left: 0;
+	bottom: 0;
+}
+
+.carousel-control {
+	z-index: 10;
+}
+
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.featurette {
+	padding-left
+}
+
+h3 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.features-panel-caption {
+	position: relative;
+/*	width: 968px;
+	margin: 0 auto;*/
+	overflow: hidden;
+	display: block;
+	font-size: 1.5em;
+/*	font-family: "Proxima Nova Semibold",Arial,sans-serif;
+	font-weight: bold;*/
+	margin-top: 30px;
+	padding-left: 90px;
+}
+
+.features-panel {
+/*	position: absolute;*/
+	left: 50%;
+	/*margin: -484px;
+	width: 1000px;*/
+	height: 242px;
+	margin-top: 20px;
+	font-size: 1.5em;
+	line-height: 1.25em;
+	padding-left: 110px;
+	border: 0;
+	vertical-align: baseline;
+}
+
+.features-tile {
+	position: absolute;
+	width: 243px;
+	height: 242px;
+	z-index: 0;
+}
+
+
+
+.features-small-tile {
+	position: absolute;
+	width: 243px;
+	height: 242px;
+	float: left;
+	overflow: hidden;
+	z-index: 0;
+}
+
+/*.features-small-tile:hover {
+	width: 323px;
+	height: 322px;
+	top: -40px;
+}*/
+
+.features-tile-content h1 {
+	color: #fff;
+	font-size: 15px;
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+/*#features_tile_first:hover {
+	left: -40px;
+}
+#features_tile_second:hover {
+	left: 202px;
+}
+#features_tile_third:hover {
+	left: 444px;
+}
+#features_tile_fourth:hover {
+	left: 686px;
+}*/
+
+
+
+.blue1 {
+	background-color: #07294b;
+}
+.blue2 {
+	background-color: #0d3b69;
+}
+.blue3 {
+	background-color: #1560ac;
+}
+.blue4 {
+	background-color: #1077e0;
+}
+
+
+
+
+.features-tile-number {
+position: absolute;
+background-color: rgba(0,0,0,0.1);
+width: 40px;
+height: 40px;
+text-align: center;
+margin: auto;
+float: left;
+z-index: 2;
+color: #FFF;
+padding-top: 5px;
+}
+
+.features-tile-content {
+position: absolute;
+color: white;
+margin: 14px;
+width: 214px;
+height: 214px;
+z-index: 1;
+-webkit-font-smoothing: antialiased;
+}
+
+.features-tile-cap {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 1001;
+}
+
+.tilecaption {
+	font-size: 13px;
+	line-height: 14px;
+}
+
+.transperent-tile {
+-moz-box-shadow: 0 0 32px rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 0 32px rgba(0,0,0,0.25);
+box-shadow: 0 0 32px rgba(0,0,0,0.25);
+-pie-box-shadow: 0 0 10px #666;
+}
+
+.features-tile-content h1{
+	margin-top: 30px;
+	margin-left: 0px;
+}
+
+.outline-inward {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.outline-inward:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #465462 solid 6px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.outline-inward:hover:before, .outline-inward:focus:before, .outline-inward:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+}
+
+
+#features_tile_first:before {
+	border: #07294b solid 6px; 
+}
+#features_tile_second:before {
+	border: #0d3b69 solid 6px;
+}
+#features_tile_third:before {
+	border: #1560ac solid 6px;
+}
+#features_tile_fourth:before {
+	border: #1077e0 solid 6px;
+}
+
+
+
+/* styling for the image wrapper  */
+#image_wrap {
+    /* dimensions */
+    padding:15px 0;
+ 
+    /* centered */
+    text-align:center;
+ 
+    /* some "skinning" */
+    background-color:#efefef;
+    border:2px solid #fff;
+    outline:1px solid #ddd;
+    -moz-ouline-radius:4px;
+}
+
+
+/*
+  root element for the scrollable.
+  when scrolling occurs this element stays still.
+  */
+.scrollable {
+
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 550px;
+    height:120px;
+
+    /* custom decorations */
+    border:1px solid #ccc;
+    background:url(/media/img/gradient/h300.png) repeat-x;
+}
+
+/*
+   root element for scrollable items. Must be absolutely positioned
+   and it should have a extremely large width to accomodate scrollable
+   items.  it's enough that you set the width and height for the root
+   element and not for this element.
+*/
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+.items div {
+    float:left;
+    width:680px;
+}
+
+/* single scrollable item */
+.scrollable img {
+    float:left;
+    margin:20px 5px 20px 21px;
+    background-color:#fff;
+    padding:2px;
+    border:1px solid #ccc;
+    width:100px;
+    height:75px;
+
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+/* active item */
+.scrollable .active {
+    border:2px solid #000;
+    position:relative;
+    cursor:default;
+}
+
+/*
+a.browse {
+background: url(/media/img/scrollable/arrow/hori_large.png) no-repeat;
+display: block;
+width: 30px;
+height: 30px;
+float: left;
+margin: 40px 10px;
+cursor: pointer;
+font-size: 1px;
+}
+
+a.left {
+margin-left: 0px;
+}
+
+a.right {
+background-position: 0 -30px;
+clear: right;
+margin-right: 0px;
+}
+
+*/
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+    float:left;
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+    background:url(../images/hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    margin:40px 10px;
+    cursor:pointer;
+    font-size:1px;
+}
+
+/* right */
+a.right { background-position: 0 -30px; clear:right; margin-right: 0px;}
+a.right:hover { background-position:-30px -30px; }
+a.right:active { background-position:-60px -30px; }
+
+
+/* left */
+a.left { margin-left: 0px; }
+a.left:hover  { background-position:-30px 0; }
+a.left:active { background-position:-60px 0; }
+
+/* up and down */
+a.up, a.down  {
+    background:url(../images/vert_large.png) no-repeat;
+    float: none;
+    margin: 10px 50px;
+}
+
+/* up */
+a.up:hover { background-position:-30px 0; }
+a.up:active { background-position:-60px 0; }
+
+/* down */
+a.down { background-position: 0 -30px; }
+a.down:hover { background-position:-30px -30px; }
+a.down:active { background-position:-60px -30px; }
+
+
+/* disabled navigational button */
+a.disabled {
+    visibility:hidden !important;
+}
+
+.image_navbar {
+  padding: 10px 5px;
+}
+
+#carousel_image {
+  width: 100%;
+}
+
+.line-break {
+  height: 25px;
+}
+
+.line-break-border {
+  border-top: 2px solid #c8c8c8;
+
+}

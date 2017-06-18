@@ -1,0 +1,349 @@
+/*IIT(ISM) Logo*/
+
+#logo-holder-small {
+	float: none;
+	width: 403px;
+	height: 54px;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+
+/* The CSES-branded IIT(ISM) logo in two sizes and two color variations, each with it's own hover state */
+
+#IIT(ISM)-logo-large {
+	width: 74px;
+	height: 38px;
+	float: left;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#IIT(ISM)-logo-large:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: -74px 0px;
+	}	
+
+#IIT(ISM)-logo-large-reversed {
+	width: 74px;
+	height: 38px;
+	float: left;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: -148px 0px;
+	}
+	
+#IIT(ISM)-logo-large-reversed:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: -222px 0px;
+	}	
+
+#IIT(ISM)-logo-small {
+	width: 56px;
+	height: 30px;
+	float: left;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#IIT(ISM)-logo-small:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: -56px 0px;
+	}	
+	<!-- This was changed -->
+#IIT(ISM)-logo-small-reversed {
+	width: auto;
+	height: 10px;
+	margin-top: 6px;
+	float: left;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: -112px 0px;
+	}
+	
+#IIT(ISM)-logo-small-reversed:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png);
+	background-repeat: no-repeat;
+	background-position: -168px 0px;
+	}	
+
+/* the vertical pipe between the IIT(ISM) logo and the CSES logo, in two sizes and two color variations */
+
+#divider-large {
+	width: 14px;
+	height: 54px;
+	margin-top: -7px;
+	margin-left: 14px;
+	border-left: 1px solid #000;
+	float: left;
+	}
+
+#divider-large-reversed {
+	height: 37px;
+	margin-top: 10px;
+	margin-left: 14px;
+	border-left: 1px solid #fff;
+	float: left;
+	}	
+	
+#divider-small {
+	width: 10px;
+	height: 40px;
+	margin-top: -5px;
+	margin-left: 10px;
+	border-left: 1px solid #000;
+	float: left;
+	}
+	
+#divider-small-reversed {
+	width: 12px;
+	height: 40px;
+	margin-top: -5px;
+	margin-left: 12px;
+	border-left: 1px solid #fff;
+	float: left;
+	}
+
+/* logo holders with the CSES dark blue background to demo the white logos */
+
+#CSES-logo-holder-large {
+	height: 48px;
+	//margin-top: 2%;
+	//margin-bottom: 2%;
+	//margin-right: 6%;
+	//padding: 3%;
+	//padding-top: 5%;
+	z-index: 100;
+	}
+
+#CSES-logo-holder-small {
+	width: 500px;
+	height: 48px;
+	margin-left: -3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 6%;
+	padding: 3%;
+	padding-top: 5%;
+	background-color:#48588b;
+	z-index: 100;
+	}
+
+/* The CSES logo and wordmark lockups for web, in two sizes and two color variations, each with its own hover state */
+
+#CSES-logo-web-large {
+	width: 323px;
+	height: 61px;
+	float: left;
+	margin-top: -10px;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-web-large:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	}
+
+
+#CSES-logo-reversed-web-large {
+	width: 210px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 210px;
+	}
+	
+#CSES-logo-reversed-web-large:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	}
+
+
+#CSES-logo-web-small {
+	width: 248px;
+	height: 52px;
+	float: left;
+	margin-top: -8px;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-web-small:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	}
+
+
+#CSES-logo-reversed-web-small {
+	width: 248px;
+	height: 52px;
+	margin-top: 12px;
+	float: left;
+	margin-top: -8px;
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-reversed-web-small:hover {
+	background-image: url(C:\Users\Abhishek Upadhyay\Desktop\bootstrap\logo_soc.png);
+	background-repeat: no-repeat;
+	}
+
+/* The short versions of the CSES logo and wordmark lockups for mobile, in two sizes and two color variations, each with its own hover state 
+
+#CSES-logo-mobile-small {
+	display: block;
+	width: 144px;
+	height: 52px;
+	float: left;
+	margin-top: -8px;
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-off.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-mobile-small:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-on.png);
+	background-repeat: no-repeat;
+	}
+
+#CSES-logo-reversed-mobile-small {
+	display: block;
+	width: 144px;
+	height: 52px;
+	float: left;
+	margin-top: -8px;
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-reversed-off.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-reversed-mobile-small:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-reversed-on.png);
+	background-repeat: no-repeat;
+	}
+
+#CSES-logo-mobile-large {
+	width: 172px;
+	height: 61px;
+	float: left;
+	margin-top: -10px;
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-off.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-mobile-large:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-on.png);
+	background-repeat: no-repeat;
+	}
+
+
+#CSES-logo-reversed-mobile-large {
+	width: 323px;
+	height: 61px;
+	float: left;
+	margin-top: -10px;
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-reversed-off.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+	
+#CSES-logo-reversed-mobile-large:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-reversed-on.png);
+	background-repeat: no-repeat;
+	}
+	
+
+@media (max-width: 480px) { /* Displays the short versions of the CSES logo and wordmark lockups for web when viewed on mobile, in two sizes and two color variations, each with its own hover state */
+	
+#CSES-logo-web-large {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-off.png);
+	}
+	
+#CSES-logo-web-large:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-on.png);
+	}
+
+
+#CSES-logo-reversed-web-large {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-reversed-off.png);
+	}
+	
+#CSES-logo-reversed-web-large:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-large-reversed-on.png);
+	}
+
+#CSES-logo-web-small {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-off.png);
+	}
+	
+#CSES-logo-web-small:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-on.png);
+	}
+
+
+#CSES-logo-reversed-web-small {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-reversed-off.png);
+	}
+	
+#CSES-logo-reversed-web-small:hover {
+	background-image: url(../images/CSES-images/CSES-logo-mobile-small-reversed-on.png);
+	}
+
+}
+ */
+
+@media screen and (max-width: 1200px){
+#CSES-logo-holder-large {
+	width: auto;
+	height: 48px;
+	margin-left: 22%;
+	margin-top:-10px;
+	//margin-top: 2%;
+	//margin-bottom: 2%;
+	//margin-right: 6%;
+	//padding: 3%;
+	//padding-top: 5%;
+	z-index: 100;
+	}
+
+#divider-large-reversed {
+	width: 0px;
+	height: 0px;
+	margin-top: -7px;
+	margin-left: 14px;
+	border-left: 0px #000;
+	float: left;
+	}
+	
+#CSES-logo-reversed-web-large {
+	width: 0px;
+	height: 0px;
+	float: left;
+	margin-top: -10px;
+	background-image: url(C:\Users\Abhishek Upadhyay\Downloads\logo_soc.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	}
+
+
+}
+
+/**
+ * Clarity logo stuff
+ */
+.image_navbar{
+    max-height:50px;

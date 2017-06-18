@@ -1,0 +1,304 @@
+
+<html lang="en">
+<head>
+  <title>project work</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link href="HowItWorks.css" rel="stylesheet">
+    <!--IIT Logo Style Link-->
+    <link rel="stylesheet" href="Logo.css">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+ <div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	  <span class="sr-only">Toggle navigation</span>
+	  <span class="icon-bar"></span>
+	  </button>
+	 </div>
+	<div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+      <li><a href="home.php" class="image_navbar"></a></li>
+	 <li><a href="#"><font size=5" color="yellow"><b> Air Pollution Monitoring System</b></font></a></li>
+      <li><a href="home.php">Home</a></li>
+     <!-- <li><a href="team.html">The Team</a></li>
+	  <li><a href="export.html">Data</a></li>    
+      <li><a href="project.html">The Project</a></li>  -->
+	  <li class="active"><a href="#hiw" rel="m_PageScroll2id">How It Works</a></li>
+	  </ul>
+	<!--  <ul class="nav navbar-nav navbar-right visible-lg">
+	  <li>
+	      <a href="http://iitism.ac.in/index.php/home/"><div id="IIT(ISM)-logo-small" class ="visible-lg"></a>
+                       <!-- <a style="width:5px; height:5px;"href="http://iitism.ac.in/index.php/home/"><img src="C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png" id="ismlogo"/></a>
+                 
+         <!--   <div id="divider-large-reversed"></div>
+            <a href="http://csesociety.in/"><div id="CSES-logo-web-large"></div></a>  
+          </div>
+        </li>
+      </ul>      -->
+    </div>
+  </div>
+  </div>
+  <!-- <div id="logoContainer">
+                        <a style="width:auto; height:10px;"href="http://iitism.ac.in/index.php/home/"><img src="C:\Users\Abhishek Upadhyay\Desktop\bootstrap\ismlogo.png" id="ismlogo"/></a>
+                    </div>       -->
+
+<!-- Photo Header -->
+<div class="container">
+ <div class="jumbotron">
+
+   <!-- Photo Header -->
+<div class="container" style="padding-top:120px">
+  <div class="col-md-12 col-sm-12 team-image-display">
+    <img id="hiw" src="howitworks_new.jpg">
+  </div>
+ 
+  </div>
+  <!-- line divider -->
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break-border"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+	
+<!-- Information about the System --> 
+
+<div class="row featurette" style="padding-left: 20px; padding-right: 20px; padding-top: 110px">
+  <h2 class="featurette-heading">
+    <font color="#1560ac">What does each node consist of?</font> 
+  </h2>
+  <br>
+  <p class="lead">
+   Each node consists of several parts:
+ </p>
+   <ul>
+    <li class="lead">A Dylos system</li>
+    <p>Every node has a dylos that consists of a small computer fan, a laser system that measures particulate matter and a screen that displays the results. This original setup was modified to also channel air over a RH/Temp Sensor and through a 3D printed infrastructure that houses the four alphasense sensors.</p>
+    <li class="lead">alphasense sensors</li> 
+    <p>
+      Alphasense sensors are electrochemical sensors that measure the concentration of pollutants. Our sensors include CO, NO and NO<sub>2</sub>  sensors along with a RH Temperature sensor. 
+    </p>
+    <li class="lead">printed circuit boards</li>
+    <p>
+      The PCB, or printed circuit board, is a mini computer that serves two purposes. It distributed power to various components of the node and communicates the data collected by the alphasense sensors and RH/Temperature sensor to the ADC board.
+    </p>
+	   <li class="lead">an analog to digital converter</li>
+    <p>
+       The ADC, or analog to Digital converter, received analog input and then converts it into digital data that the Raspberry Pi can read.
+     </p>
+
+    <li class="lead">a raspberry pi</li> 
+    <p>
+          The Raspberry Pi receives digital data from the ADC board through the ribbon cable. Ultimately, this information is transferred wirelessly to a database. 
+</p>
+</ul>
+</div>
+
+<br><br>
+<div>
+  <h3 style="text-align: left">
+  <font color="#1560ac">A 3D Visualization of the Node</font></h3>
+</div>
+<div>
+  <p class="lead">
+ Our sensors include CO, NO and NO<sub>2</sub> sensors along with a RH Temperature sensor. 
+  This 3D visualization let's you see what is inside each node's casing. It represents the Dylos particle sensor, the alphasense sensors, the Raspberry Pi, and the electronic boards. Feel free to rotate and zoom to get a better look!
+</p>
+</div>
+<!-- line divider -->
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break-border"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+	<!-- Pollutants Section -->
+<div class="row featurette" style="padding-left: 20px; padding-right: 20px; padding-top: 80px">
+  <h2 class="featurette-heading">
+    <span class="text-muted">
+	<font color="#1560ac">What will we measure?</font></span>
+  </h2>
+  <br>
+  <p class="lead">
+We are measuring five pollutants: nitric oxide, nitrogen dioxide, carbon monoxide, ozone, and particulate matter. The NOx group (nitric oxide and nitrogen dioxide) is emitted from automobiles, power plants, and turbines. Carbon monoxide comes from automobile exhaust and burning fuel. Particulate matter is the result of a wide range of manmade and natural sources, while ozone is the result of reactions between chemicals already in our air.
+Together, these pollutants paint a comprehensive picture of air quality impacts from the interaction of human activity with natural processes.
+
+  </p>
+</div>
+	<!-- Pollutant Descriptions -->
+
+<!-- POLLUTANTS SECTIONN -->
+
+<div id="pollutants"></div>
+<hr>
+<br><br>
+<!-- first row of pollutants -->
+
+<!--CARBON MONOXIDE -->
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+   <div class="thumbnail">
+    <img src="CO.png">
+    <h3>Carbon Monoxide</h3>
+    <p>
+     <font size="2"> CO is an odorless, colorless gas that is highly toxic in when encountered in high concentrations! The main contribution of CO is vehicle exhaust but other sources include fuel combustion, fires, and volcanoes. Harmful health effects of CO occur when it enters the bloodstream through the lungs and binds to hemoglobin, reducing the amount of oxygen that reaches the bodys' tissues and organs. 
+   </font> </p>
+    <p>
+     <a class="btn" data-toggle="modal" data-target="#COModal" href="#">Learn More</a>
+   </p>
+ </div>
+</div>
+<!-- CO Modal -->
+<div class="modal fade" id="COModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Carbon Monoxide</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          What is it?  Carbon monoxide (CO) is an odorless, colorless, and toxic gas that is often a byproduct of combustion in gas ranges, automobiles, or unvented kerosene heaters. CO can also be an important indoor pollution concern, because it is often produced from indoor heaters, chimneys and furnaces, fireplaces, and water heaters. 
+        </p>
+        <p>
+          Why does it matter?  Because carbon monoxide is difficult to detect and might be a critical indoor pollution problem, our network is especially useful for CO detection. At low concentrations, it can cause mild chest pain in people with heart problems or fatigue in healthy people. CO can be fatal at high concentrations, because of its ability to limit oxygen intake in blood. Other potential issues include angina, impaired vision, and reduced brain function. 
+        </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- NITRIC OXIDE -->
+<div class="col-sm-6 col-md-4">
+ <div class="thumbnail">
+   <img src="NO.png">
+   <h3>Nitric Oxide</h3>
+   <p>
+   <font size="2"> Nitric Oxide is colorless and odorless, and of the nitrogen oxides (NOx) emitted, NO is the primary pollutant. While NO is non-toxic by itself, it quickly converts to NO2 in the air. 
+  </font></p>
+  <p>
+   <a class="btn" data-toggle="modal" data-target="#NOModal" href="#">Learn More</a>
+ </p>
+</div>
+</div>
+<!-- NO Modal -->
+<div class="modal fade" id="NOModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Nitric Oxide</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          What is it?  Nitric oxide (NO) is a byproduct of combustion of air in manmade systems such as automobile engines and fossil fuel power plants, or in natural processes such as thunderstorms. NO is a free radical (it has one unpaired electron), which means that it is highly unstable and likely rapidly reacts with surrounding gases. Usually, NO converts into nitrogen dioxide (NO2), which will enter a complex chain of reactions that may produce ozone or acid rain. 
+        </p>
+        <p>
+          Why does it matter? NO is not included in the Air Quality Index (AQI) produced by the Environmental Protection Agency. However, it is an important precursor to nitrogen dioxide (NO2), which is known to have detrimental effects on human respiratory health. NO2 can also likely produce ozone or acid rain.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- NITROGEN DIOXIDE -->
+<div class="col-sm-6 col-md-4">
+ <div class="thumbnail">
+   <img src="NO2.png">
+   <h3>Nitrogen Dioxide</h3>
+   <p>
+  <font size="2">  Nitrogen Dioxide (NO<sub>2</sub>) is strongly tied to the presence of O3 and particulate matter. The largest sources of NO2 are combustion processes, such as heating and power generation. Long-term exposure to NO2 has been linked to adverse respiratory effects. 
+ </font> </p>
+  <p>
+   <a class="btn" data-toggle="modal" data-target="#NO2Modal" href="#">Learn More</a>
+  </p>
+</div>
+</div>
+<!-- NO2 Modal -->
+<div class="modal fade" id="NO2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Nitrogen Dioxide</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          What is it? Nitrogen dioxide (NO<sub>2</sub>) is a suffocating, brownish gas that belongs to a family of highly reactive species known as nitrogen oxides (NOx). NO2 is usually produced after nitric oxide, which is produced from automobiles and industrial processes, rapidly decomposes to NO2. The NOx gases form when fuel is burned at high temperatures  as a result of motor vehicle exhaust, electric utilities, and industrial boilers. NO2 can react with other gases in the atmosphere to form nitric acid, which leads to acid rain, and ozone.
+        </p>
+        <p> 
+          Why does it matter?  At moderate levels, NO2 can cause lung irritation and make one more susceptible to respiratory illnesses such as influenza. Nitrogen dioxide, when present for prolonged time periods, can make children more susceptible to acute respiratory illness. NO2 can increase acid rain and formation of zone. Finally, NO2 can result in eutrophication in waters, which decreases water oxygen and threatens the livelihood of aquatic wildlife.
+        </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+<br><br><br>
+
+<!-- line divider -->
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break-border"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+	
+<!-- CALIBRATION SECTION -->
+
+<div class="row featurette" style="padding-left: 20px; padding-right: 20px; padding-top: 110px">
+  <h2 class="featurette-heading">
+    <font color="#1560ac">How have we calibrated our sensors?</font> 
+  </h2>
+  <br>
+
+  <p class="lead">
+    Every node is outfitted with 4 electrochemical sensors, which output millivolt readings. The goal of the calibration process was to provide a precise conversion of the electrochemical sensor millivolt readings to a parts per billion unit of measurement for the individual gas species. Using an airtight metal chamber which fit two nodes at a time, we created a system where air was pumped in through tubing to the nodes and out through tubing to the equipment, so that both the nodes and the equipment could measure the same gas pulses. Using a linear regression, the relationship between the millivolt readings from the sensors and the ppb concentrations from the instruments created. 
+  </p>
+</div>
+
+<!-- line divider -->
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break-border"></div>
+    <div class="col-md-12 line-break"></div>
+    <div class="col-md-12 line-break"></div>
+
+      <!-- CONTACT SECTION -->
+
+<div class="row featurette" style="padding-left: 2%; padding-right: 2%">
+  <h2 class="featurette-heading">
+    <font color="#000">Contact Us</font> 
+    <span class="text-muted"></span>
+  </h2>
+  <br>
+  <p class="lead">
+           Please contact us at <a href="http://iitism.ac.in/">IIT-ISM Dhanbad</a> with any questions. 
+  </p>
+</div>
+
+<div class="col-md-12 line-break"></div>
+<div class="col-md-12 line-break-border"></div>
+<div class="col-md-12 line-break"></div>
+
+</div>
+<!--</div>
+</div>
+</div>  -->
+
+</div>
+</div>
+</body>
+</html>
